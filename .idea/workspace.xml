@@ -2,56 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aafb830e-d545-4048-9e80-7a63dd5c778d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/dto/MallUserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/enums/DubboErrorEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/service/MallUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dao/MallUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dataobject/MallUserDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-dal/src/main/resources/mapper/MallUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-server/src/main/resources/dubbo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/converter/MallUserConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/manager/MallUserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/service/MallUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-client/account-client.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/enums/AccountStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/enums/UserGender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/enums/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/service/MallUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/service/MallUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-client/target/account-client.jar" beforeDir="false" afterPath="$PROJECT_DIR$/account-client/target/account-client.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/account-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-common/account-common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-common/target/account-client.jar" beforeDir="false" afterPath="$PROJECT_DIR$/account-common/target/account-client.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-dal/account-dal.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dao/AccountDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dao/UserInfoDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dao/UserRecvAddressDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dataobject/AccountDO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dataobject/UserInfoDO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dataobject/UserRecvAddressDO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-dal/src/main/resources/mapper/AccountMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-dal/src/main/resources/mapper/UserInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-dal/src/main/resources/mapper/UserRecvAddressMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-dal/src/main/resources/sql/account.sql" beforeDir="false" afterPath="$PROJECT_DIR$/account-dal/src/main/resources/sql/account.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-dal/target/account-client.jar" beforeDir="false" afterPath="$PROJECT_DIR$/account-dal/target/account-client.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-dal/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-dal/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-server/account-server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-server/src/main/java/com/mall/account/server/AccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-server/src/main/java/com/mall/account/server/AccountApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-server/src/test/java/com/mall/account/test/dao/AccountDAOTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-server/src/test/java/com/mall/account/test/dao/UserInfoDAOTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-server/src/test/java/com/mall/account/test/dao/UserRecvAddressDAOTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-server/target/account-client.jar" beforeDir="false" afterPath="$PROJECT_DIR$/account-server/target/account-client.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/account-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/account-client.jar" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/target/account-client.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dao/MallUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dao/MallUserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-dal/src/main/resources/mapper/MallUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-dal/src/main/resources/mapper/MallUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/manager/MallUserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/manager/MallUserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/service/MallUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/service/MallUserServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,15 +39,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account-server/src/main/java/com/mall/account/server/AccountApplication.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/service/MallUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,35 +54,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/service/MallUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+            <state relative-caret-position="585">
+              <caret line="66" column="48" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account-server/pom.xml">
+        <entry file="file://$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/manager/MallUserManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+            <state relative-caret-position="675">
+              <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2444#2445#0" expanded="true" />
+                <element signature="e#2513#2514#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account-server/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dao/MallUserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+            <state relative-caret-position="375">
+              <caret line="25" column="88" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,16 +146,16 @@
         <option value="$PROJECT_DIR$/account-service/pom.xml" />
         <option value="$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dataobject/MallUserDO.java" />
         <option value="$PROJECT_DIR$/account-server/src/main/resources/dubbo.xml" />
-        <option value="$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/service/MallUserService.java" />
-        <option value="$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dao/MallUserDAO.java" />
         <option value="$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/dto/MallUserDTO.java" />
         <option value="$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/converter/MallUserConverter.java" />
-        <option value="$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/manager/MallUserManager.java" />
-        <option value="$PROJECT_DIR$/account-dal/src/main/resources/mapper/MallUserMapper.xml" />
-        <option value="$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/service/MallUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/account-server/pom.xml" />
         <option value="$PROJECT_DIR$/account-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/service/MallUserService.java" />
+        <option value="$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dao/MallUserDAO.java" />
+        <option value="$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/service/MallUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/manager/MallUserManager.java" />
+        <option value="$PROJECT_DIR$/account-dal/src/main/resources/mapper/MallUserMapper.xml" />
       </list>
     </option>
   </component>
@@ -241,7 +198,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="727" />
@@ -254,6 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,25 +222,76 @@
             <path>
               <item name="account" type="b2602c69:ProjectViewProjectNode" />
               <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="account-server" type="462c0819:PsiDirectoryNode" />
+              <item name="account-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="account" type="b2602c69:ProjectViewProjectNode" />
               <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="account-server" type="462c0819:PsiDirectoryNode" />
+              <item name="account-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="account" type="b2602c69:ProjectViewProjectNode" />
               <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="account-server" type="462c0819:PsiDirectoryNode" />
+              <item name="account-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="account" type="b2602c69:ProjectViewProjectNode" />
               <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="account-server" type="462c0819:PsiDirectoryNode" />
+              <item name="account-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="account-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="account-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="account-client" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="account-dal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="account-dal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="account-dal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="account-dal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -290,11 +299,75 @@
             <path>
               <item name="account" type="b2602c69:ProjectViewProjectNode" />
               <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="account-server" type="462c0819:PsiDirectoryNode" />
+              <item name="account-dal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="dal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="account-dal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dal" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="account-dal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dal" type="462c0819:PsiDirectoryNode" />
+              <item name="dataobject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="account-dal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="account-dal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="account-dal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="account-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="account-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="account-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="account" type="b2602c69:ProjectViewProjectNode" />
@@ -304,56 +377,10 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="account" type="b2602c69:ProjectViewProjectNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="account-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="account" type="b2602c69:ProjectViewProjectNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="account-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="account" type="b2602c69:ProjectViewProjectNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="account-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="account" type="b2602c69:ProjectViewProjectNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="account-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="account" type="b2602c69:ProjectViewProjectNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="account-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="account" type="b2602c69:ProjectViewProjectNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="account-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="CatdeaLogs" />
     </panes>
@@ -365,7 +392,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587204316435" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587804758220" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -495,8 +523,21 @@
       <workItem from="1586942249810" duration="329000" />
       <workItem from="1587119839408" duration="6492000" />
       <workItem from="1587196345124" duration="2636000" />
-      <workItem from="1587204383378" duration="242000" />
+      <workItem from="1587204383378" duration="800000" />
+      <workItem from="1587282878698" duration="205000" />
+      <workItem from="1587456620584" duration="41000" />
+      <workItem from="1587462867436" duration="176000" />
+      <workItem from="1587803382667" duration="1458000" />
+      <workItem from="1587812365140" duration="828000" />
     </task>
+    <task id="LOCAL-00001" summary="mall商城用户登录">
+      <created>1587211244614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587211244614</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -532,12 +573,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56286000" />
+    <option name="totallyTimeSpent" value="59552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.3319027" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" sideWeight="0.5020408" side_tool="true" weight="0.2003231" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -567,7 +608,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.19027181" />
+      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.16809729" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
@@ -619,6 +660,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mall商城用户登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="mall商城用户登录" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.9.RELEASE/spring-test-5.1.9.RELEASE.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.class">
@@ -753,34 +798,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account-dal/src/main/resources/sql/account.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-server/src/main/resources/dubbo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dataobject/MallUserDO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/dto/MallUserDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -794,40 +815,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/manager/MallUserManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-dal/src/main/resources/mapper/MallUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dao/MallUserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/service/MallUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -850,13 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/service/MallUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/account-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -873,8 +853,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+        <state relative-caret-position="1980">
+          <caret line="132" column="34" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-dal/src/main/resources/sql/account.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-server/src/main/resources/dubbo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="11" selection-start-column="19" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/dto/MallUserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/service/MallUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="66" column="48" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-service/src/main/java/com/mall/account/service/manager/MallUserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2444#2445#0" expanded="true" />
+            <element signature="e#2513#2514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-dal/src/main/resources/mapper/MallUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="145" column="14" selection-start-line="145" selection-start-column="14" selection-end-line="145" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-dal/src/main/java/com/mall/account/dal/dao/MallUserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="88" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-client/src/main/java/com/mall/account/client/service/MallUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

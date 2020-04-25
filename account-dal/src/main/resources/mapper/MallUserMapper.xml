@@ -99,6 +99,54 @@
         </trim>
     </insert>
 
+    <select id="selectByPrimaryKey" parameterType="Integer" resultMap="BaseResultMap">
+        select
+            <include refid="Base_Column_List"/>
+        from
+            mall_user
+        where
+            id = #{userId,jdbcType=BIGINT}
+            and
+            is_deleted = 0
+    </select>
 
+    <update id="updateByPrimaryKeySelective" parameterType="com.mall.account.dal.dataobject.MallUserDO">
+        update mall_user
+        <set>
+            <if test="nickName != null">
+                nick_name = #{nickName,jdbcType=VARCHAR},
+            </if>
+            <if test="loginName != null">
+                login_name = #{loginName,jdbcType=VARCHAR},
+            </if>
+            <if test="passwordMd5 != null">
+                password_md5 = #{passwordMd5,jdbcType=VARCHAR},
+            </if>
+            <if test="introduceSign != null">
+                introduce_sign = #{introduceSign,jdbcType=VARCHAR},
+            </if>
+            <if test="address != null">
+                address = #{address,jdbcType=VARCHAR},
+            </if>
+            <if test="isDeleted != null">
+                is_deleted = #{isDeleted,jdbcType=TINYINT},
+            </if>
+            <if test="lockedFlag != null">
+                locked_flag = #{lockedFlag,jdbcType=TINYINT},
+            </if>
+        </set>
+        where id = #{userId,jdbcType=BIGINT}
+    </update>
+
+    <update id="lockUserBatch">
+        update
+            mall_user
+        set
+            locked_flag=#{lockStatus}
+        where id in
+        <foreach item="id" collection="ids" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </update>
 
 </mapper>

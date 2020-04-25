@@ -6,9 +6,12 @@ import com.mall.account.dal.dataobject.MallUserDO;
 import com.mall.account.service.converter.MallUserConverter;
 import com.mall.common.service.enums.ServiceResultEnum;
 import com.mall.common.service.util.MD5Util;
+import com.mall.common.service.util.PageQueryUtil;
+import com.mall.common.service.util.PageResult;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Component
 public class MallUserManager {
@@ -34,6 +37,28 @@ public class MallUserManager {
     public MallUserDTO queryUserByLoginNameAndPasswd(String loginName, String password) {
         MallUserDO mallUserDO = mallUserDAO.selectByLoginNameAndPasswd(loginName, password);
         return MallUserConverter.mallUserDO2DTO(mallUserDO);
+    }
+
+    public MallUserDTO selectByPrimaryKey(Integer userId) {
+        MallUserDO mallUserDO = mallUserDAO.selectByPrimaryKey(userId);
+        return MallUserConverter.mallUserDO2DTO(mallUserDO);
+
+    }
+
+    public int updateByPrimaryKeySelective(MallUserDTO record) {
+        MallUserDO mallUserDO = MallUserConverter.mallUserDTO2DO(record);
+        return mallUserDAO.updateByPrimaryKeySelective(mallUserDO);
+    }
+
+    public PageResult getMallUsersPage(PageQueryUtil pageUtil, String loginName) {
+        List<MallUserDO> mallUsers = mallUserDAO.findMallUserList(pageUtil.getStart(), pageUtil.getLimit(), loginName);
+        int total = mallUserDAO.getTotalMallUsers(loginName);
+        PageResult pageResult = new PageResult(mallUsers, total, pageUtil.getLimit(), pageUtil.getPage());
+        return pageResult;
+    }
+
+    public Boolean lockUsers(Integer[] ids, int lockStatus) {
+        return mallUserDAO.lockUserBatch(ids, lockStatus) > 0;
     }
 
 }
